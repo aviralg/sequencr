@@ -1,0 +1,17 @@
+Package: sequencr
+Title: Extract dplyr operation sequences on data frames
+Version: 0.0.0.9000
+Authors@R:
+    person(given = "Aviral",
+           family = "Goel",
+           role = c("aut", "cre"),
+           email = "goel.aviral@gmail.com")
+Description: This package extracts the sequence of dplyr operations performed on data frames
+License: file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    lightr
+Remotes:
+    PRL-PRG/lightr
+RoxygenNote: 7.1.0.9000
